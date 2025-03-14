@@ -6,4 +6,4 @@ torch~=2.6.0
 diffusers~=0.32.2
 requests~=2.32.3
 beautifulsoup4~=4.13.3
-transformers~=4.39.1
+transformers
