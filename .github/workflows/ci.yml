@@ -7,9 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
+      DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
       OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
-      DATABASE_URL: ${{ secrets.DISCORD_TOKEN }}
-
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
