@@ -50,6 +50,5 @@ jobs:
 
       - name: Iniciar o bot do Discord
         run: |
-          python main.py &  # Inicia o bot
-          sleep 10
-          curl -f http://localhost:5000 || exit 1  # Verifica se a API do bot está respondendo
+          python main.py &  # Inicia o bot em background
+          timeout 30 bash -c 'until grep -q "Bot Botberto#1437 está online!" <(tail -n 100 -f nohup.out); do sleep 5; done'
