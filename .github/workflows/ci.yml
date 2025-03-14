@@ -1,10 +1,15 @@
 name: Python CI Pipeline
 
-on: [push, pull_request]  # Roda o pipeline em push e PRs
+on: [push, pull_request]  # Executa em push e PRs
 
 jobs:
   lint-and-test:
-    runs-on: ubuntu-latest  # Usa um runner Linux
+    runs-on: ubuntu-latest  # Usa um ambiente Linux
+
+    env:
+      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}  # Chave de API do Ollama
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}      # Exemplo de variável extra
+
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
@@ -32,6 +37,6 @@ jobs:
 
       - name: Testar se a aplicação inicia corretamente
         run: |
-          python main.py &  # Substitua pelo comando correto do seu app
+          python main.py &  # Substitua pelo comando correto para rodar sua aplicação
           sleep 10
           curl -f http://localhost:5000 || exit 1  # Ajuste conforme a porta da API
