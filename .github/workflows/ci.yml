@@ -1,0 +1,37 @@
+name: Python CI Pipeline
+
+on: [push, pull_request]  # Roda o pipeline em push e PRs
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest  # Usa um runner Linux
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'  # Ajuste conforme necessário
+
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Rodar Linter (ruff)
+        run: |
+          pip install ruff
+          ruff check .
+
+      - name: Instalar e iniciar Ollama
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &  # Roda Ollama em background
+          sleep 5  # Aguarda o serviço subir
+
+      - name: Testar se a aplicação inicia corretamente
+        run: |
+          python main.py &  # Substitua pelo comando correto do seu app
+          sleep 10
+          curl -f http://localhost:5000 || exit 1  # Ajuste conforme a porta da API
