@@ -1,0 +1,8 @@
+discord.py~=2.5.1
+python-dotenv~=1.0.1
+yt-dlp~=2025.2.19
+aiohttp~=3.11.13
+torch~=2.6.0
+diffusers~=0.32.2
+requests~=2.32.3
+beautifulsoup4~=4.13.3

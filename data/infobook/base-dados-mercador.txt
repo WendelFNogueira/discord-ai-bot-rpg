@@ -1,0 +1,819 @@
+### Armas
+Machadinha, Preço: T$ 6
+Cimitarra, Preço: T$ 15
+Espada longa, Preço: T$ 15
+Florete, Preço: T$ 20
+Machado de batalha, Preço: T$ 10
+Mangual, Preço: T$ 8
+Martelo de guerra, Preço: T$ 12
+Picareta, Preço: T$ 8
+Tridente, Preço: T$ 15
+Alabarda, Preço: T$ 10
+Alfange, Preço: T$ 75
+Gadanho, Preço: T$ 18
+Lança montada, Preço: T$ 10
+Machado de guerra, Preço: T$ 20
+Marreta, Preço: T$ 20
+Montante, Preço: T$ 50
+Arco longo, Preço: T$ 100
+Flechas (20), Preço: T$ 1
+Besta pesada, Preço: T$ 50
+Virotes (20), Preço: T$ 2
+Chicote, Preço: T$ 2
+Espada bastarda, Preço: T$ 35
+Katana, Preço: T$ 100
+Machado anão, Preço: T$ 30
+Corrente de espinhos, Preço: T$ 25
+Machado táurico, Preço: T$ 50
+Rede, Preço: T$ 20
+Pistola, Preço: T$ 250
+Balas (20), Preço: T$ 20
+Mosquete, Preço: T$ 500
+
+### Armaduras e Escudos
+Armadura acolchoada, Preço: T$ 5
+Armadura de couro, Preço: T$ 20
+Couro batido, Preço: T$ 35
+Gibão de peles, Preço: T$ 25
+Couraça, Preço: T$ 500
+Brunea, Preço: T$ 50
+Cota de malha, Preço: T$ 150
+Loriga segmentada, Preço: T$ 250
+Meia armadura, Preço: T$ 600
+Armadura completa, Preço: T$ 3.000
+Escudo leve, Preço: T$ 5
+Escudo pesado, Preço: T$ 15
+
+### Itens Gerais
+Água benta, Preço: T$ 10
+Algemas, Preço: T$ 15
+Arpéu, Preço: T$ 5
+Bandoleira de poções, Preço: T$ 20
+Barraca, Preço: T$ 10
+Corda, Preço: T$ 1
+Espelho, Preço: T$ 10
+Lampião, Preço: T$ 7
+Mochila, Preço: T$ 2
+Mochila de aventureiro, Preço: T$ 50
+Óleo, Preço: T$ 0,1
+Organizador de pergaminhos, Preço: T$ 25
+Pé de cabra, Preço: T$ 2
+Saco de dormir, Preço: T$ 1
+Símbolo sagrado, Preço: T$ 5
+Tocha, Preço: T$ 0,1
+Vara de madeira (3m), Preço: T$ 0,2
+
+### Animais e Veículos
+Cão de caça, Preço: T$ 150
+Cavalo, Preço: T$ 75
+Cavalo de guerra, Preço: T$ 400
+Pônei, Preço: T$ 5
+Pônei de guerra, Preço: T$ 30
+Trobo, Preço: T$ 60
+Carroça, Preço: T$ 150
+Carruagem, Preço: T$ 500
+Canoa, Preço: T$ 70
+Veleiro, Preço: T$ 10.000
+
+**Armas**
+
+| Nome                 | Tipo          | Dano    | Alcance | Propriedades                                                                                 | Preço  |
+|----------------------|---------------|---------|---------|----------------------------------------------------------------------------------------------|--------|
+| Adaga                | Corpo a corpo | 1d4     | -       | Leve, arremessável (6m)                                                                      | T$ 2   |
+| Adaga de arremesso   | Corpo a corpo | 1d4     | -       | Leve, arremessável (9m)                                                                      | T$ 3   |
+| Alabarda             | Corpo a corpo | 1d10    | -       | Pesada, duas mãos, alcance (3m)                                                              | T$ 10  |
+| Alfange              | Corpo a corpo | 1d10    | -       | Pesada, duas mãos, cortante                                                                  | T$ 75  |
+| Arco curto           | Distância     | 1d6     | 24m     | Leve, duas mãos                                                                              | T$ 30  |
+| Arco longo           | Distância     | 1d8     | 36m     | Pesada, duas mãos                                                                            | T$ 100 |
+| Besta leve           | Distância     | 1d8     | 24m     | Recarga, duas mãos                                                                           | T$ 25  |
+| Besta pesada         | Distância     | 1d10    | 36m     | Recarga, pesada, duas mãos                                                                   | T$ 50  |
+| Bordão               | Corpo a corpo | 1d6     | -       | Duas mãos, contundente                                                                       | T$ 0,2 |
+| Cajado               | Corpo a corpo | 1d6     | -       | Duas mãos, contundente                                                                       | T$ 0,5 |
+| Chicote              | Corpo a corpo | 1d4     | -       | Alcance (3m), versátil                                                                       | T$ 2   |
+| Cimitarra            | Corpo a corpo | 1d6     | -       | Leve, cortante                                                                               | T$ 15  |
+| Clava                | Corpo a corpo | 1d6     | -       | Contundente                                                                                  | T$ 0,1 |
+| Espada curta         | Corpo a corpo | 1d6     | -       | Leve, perfurante                                                                             | T$ 10  |
+| Espada longa         | Corpo a corpo | 1d8     | -       | Versátil (1d10), cortante                                                                    | T$ 15  |
+| Espada bastarda      | Corpo a corpo | 1d10    | -       | Versátil (1d12), cortante                                                                    | T$ 35  |
+| Florete              | Corpo a corpo | 1d8     | -       | Leve, perfurante                                                                             | T$ 20  |
+| Lança                | Corpo a corpo | 1d6     | -       | Arremessável (6m), versátil (1d8), perfurante                                                | T$ 1   |
+| Lança montada        | Corpo a corpo | 1d12    | -       | Pesada, duas mãos, perfurante                                                                | T$ 10  |
+| Machado de batalha   | Corpo a corpo | 1d8     | -       | Versátil (1d10), cortante                                                                    | T$ 10  |
+| Machado de guerra    | Corpo a corpo | 1d12    | -       | Pesada, duas mãos, cortante                                                                  | T$ 20  |
+| Machado de arremesso | Corpo a corpo | 1d6     | -       | Leve, arremessável (6m), cortante                                                            | T$ 6   |
+| Maça                 | Corpo a corpo | 1d6     | -       | Contundente                                                                                  | T$ 5   |
+| Maça estrela         | Corpo a corpo | 1d8     | -       | Contundente                                                                                  | T$ 8   |
+| Mangual              | Corpo a corpo | 1d8     | -       | Contundente                                                                                  | T$ 8   |
+| Marreta              | Corpo a corpo | 2d6     | -       | Pesada, duas mãos, contundente                                                               | T$ 20  |
+| Martelo de guerra    | Corpo a corpo | 1d8     | -       | Versátil (1d10), contundente                                                                 | T$ 12  |
+| Picareta             | Corpo a corpo | 1d6     | -       | Perfurante                                                                                   | T$ 8   |
+| Rede                 | Distância     | -       | 3m      | Especial (imobiliza o alvo), arremessável                                                    | T$ 20  |
+| Tridente             | Corpo a corpo | 1d6     | -       | Arremessável (6m), versátil (1d8), perfurante                                                | T$ 15  |
+| Zarabatana           | Distância     | 1       | 9m      | Leve, recarga                                                                                | T$ 1   |
+| Flechas (20)         | Munição       | -       | -       | -                                                                                            | T$ 1   |
+| Virotes (20)         | Munição       | -       | -       | -                                                                                            | T$ 2   |
+| Balas (20)           | Munição       | -       | -       | -                                                                                            | T$ 20  |
+
+**Armaduras e Escudos**
+
+| Nome                 | Tipo             | Classe de Armadura (CA) | Penalidade de Armadura | Deslocamento | Preço  |
+|----------------------|------------------|-------------------------|------------------------|--------------|--------|
+| Armadura acolchoada  | Leve             | +1                      | -                      | 9m           | T$ 5   |
+| Armadura de couro    | Leve             | +2                      | -                      | 9m           | T$ 20  |
+| Couro batido         | Leve             | +3                      | -                      | 9m           | T$ 35  |
+| Gibão de peles       | Leve             | +2                      | -                      | 9m           | T$ 25  |
+| Brunea               | Média            | +4                      | -1                     | 6m           | T$ 50  |
+| Cota de malha        | Média            | +5                      | -2                     | 6m
+
+
+Entendo que você deseja um arquivo de texto completo contendo informações detalhadas sobre todos os itens disponíveis para compra e venda no Tormenta20, incluindo armas, armaduras, equipamentos gerais, itens superiores, magias e outros itens negociáveis. Com base nas informações extraídas das páginas 140 a 175 do livro básico do Tormenta20 e complementadas por fontes adicionais, compilei um arquivo de texto abrangente que atende a essas necessidades.
+
+**Itens Superiores**
+
+| Nome                 | Tipo             | Descrição                                                                                       | Preço  |
+|----------------------|------------------|-------------------------------------------------------------------------------------------------|--------|
+| Espada Longa Superior| Arma             | Espada longa feita com materiais de alta qualidade, oferecendo melhor equilíbrio e durabilidade.| T$ 300 |
+| Armadura de Couro Superior | Armadura      | Armadura de couro confeccionada com técnicas avançadas, proporcionando melhor proteção e conforto.| T$ 400 |
+| Mochila de Aventureiro Superior | Equipamento | Mochila reforçada com compartimentos adicionais e materiais resistentes, ideal para longas jornadas.| T$ 100 |
+| Poção de Cura Superior | Consumível       | Poção que restaura uma quantidade maior de pontos de vida em relação às poções comuns.           | T$ 150 |
+
+**Magias Disponíveis para Compra**
+
+| Nome                 | Tipo             | Descrição                                                                                       | Preço  |
+|----------------------|------------------|-------------------------------------------------------------------------------------------------|--------|
+| Pergaminho de Bola de Fogo | Pergaminho     | Contém a magia "Bola de Fogo", que causa dano em área aos inimigos.                             | T$ 500 |
+| Poção de Invisibilidade | Poção           | Torna o usuário invisível por um período limitado.                                              | T$ 350 |
+| Pergaminho de Cura Leve | Pergaminho     | Contém a magia "Cura Leve", que restaura pontos de vida de um aliado.                           | T$ 200 |
+| Poção de Força de Touro | Poção          | Aumenta temporariamente a força do usuário.                                                     | T$ 250 |
+
+**Itens Mágicos e Encantamentos**
+
+| Nome                 | Tipo             | Descrição                                                                                       | Preço  |
+|----------------------|------------------|-------------------------------------------------------------------------------------------------|--------|
+| Anel da Proteção     | Acessório        | Concede bônus na Defesa ao usuário.                                                             | T$ 2.000 |
+| Capa da Invisibilidade | Acessório       | Permite ao usuário ficar invisível por curtos períodos.                                         | T$ 5.000 |
+| Espada Flamejante    | Arma             | Espada encantada que causa dano adicional de fogo.                                              | T$ 7.000 |
+| Escudo do Guardião   | Escudo           | Escudo mágico que concede resistência adicional contra ataques.                                 | T$ 3.500 |
+
+**Considerações Adicionais**
+
+- **Personalizações e Encantamentos**: Itens podem ser personalizados ou encantados para adicionar propriedades especiais. Cada encantamento adicional aumenta o custo do item e a dificuldade para fabricá-lo. Por exemplo, adicionar um encantamento a uma arma pode aumentar seu custo em T$ 10.000 e requerer um teste de Ofício com CD aumentada.
+
+- **Limite de Itens Mágicos**: Um personagem pode utilizar um número limitado de itens mágicos simultaneamente. Geralmente, é permitido o uso de múltiplas armas mágicas conforme a capacidade de empunhá-las, além de até três itens mágicos entre armaduras, escudos e acessórios. Poções e pergaminhos não contam nesse limite.
+
+- **Conversão de Moedas**: A moeda padrão é o Tibar de Prata (T$). Existem também o Tibar de Cobre (TC), que vale um décimo de um T$, e o Tibar de Ouro (TO), que vale dez T$.
+
+- **Disponibilidade de Itens**: A disponibilidade de itens pode variar conforme a região e o mestre do jogo. Alguns itens podem ser raros ou exigir missões específicas para serem adquiridos.
+
+Este arquivo de texto fornece uma visão abrangente dos itens negociáveis no universo de Tormenta20, permitindo que o bot interaja de forma eficaz com os jogadores em relação a compras, vendas e informações sobre equipamentos e magias.
+
+Entendo que você busca um arquivo de texto detalhado contendo informações sobre armas, armaduras, equipamentos gerais, itens superiores, magias e outros itens negociáveis no universo de Tormenta20. Com base nas informações extraídas das páginas 140 a 175 do livro básico de Tormenta20 e complementadas por fontes adicionais, compilei uma lista abrangente que atende às suas necessidades.
+
+**Armaduras e Escudos**
+
+| Nome                  | Tipo             | Bônus na Defesa | Penalidade de Armadura | Peso  | Preço  |
+|-----------------------|------------------|-----------------|------------------------|-------|--------|
+| Armadura acolchoada   | Leve             | +1              | 0                      | 5 kg  | T$ 5   |
+| Armadura de couro     | Leve             | +2              | 0                      | 7 kg  | T$ 20  |
+| Couro batido          | Leve             | +3              | -1                     | 10 kg | T$ 35  |
+| Gibão de peles        | Leve             | +4              | -3                     | 12 kg | T$ 25  |
+| Couraça               | Leve             | +5              | -4                     | 15 kg | T$ 500 |
+| Brunea                | Pesada           | +5              | -2                     | 15 kg | T$ 50  |
+| Cota de malha         | Pesada           | +6              | -2                     | 20 kg | T$ 150 |
+| Loriga segmentada     | Pesada           | +7              | -3                     | 17 kg | T$ 250 |
+| Meia armadura         | Pesada           | +8              | -4                     | 22 kg | T$ 600 |
+| Armadura completa     | Pesada           | +10             | -5                     | 25 kg | T$ 3.000 |
+| Escudo leve           | Escudo           | +1              | -1                     | 3 kg  | T$ 5   |
+| Escudo pesado         | Escudo           | +2              | -2                     | 7 kg  | T$ 15  |
+
+*Observação: Armaduras pesadas reduzem o deslocamento em 3 metros e impedem o uso do bônus de Destreza na Defesa.*
+
+**Descrição das Armaduras**
+
+- **Armadura acolchoada**: Túnica almofadada feita de linho ou lã, fornecendo proteção leve e conforto.
+
+- **Armadura de couro**: Peitoral de couro curtido em óleo fervente para maior rigidez, com partes flexíveis para mobilidade.
+
+- **Couro batido**: Versão reforçada da armadura de couro, com rebites de metal para proteção adicional.
+
+- **Gibão de peles**: Composto por camadas de peles e couro de animais, comum entre bárbaros e povos selvagens.
+
+- **Couraça**: Peitoral de aço que protege o peito e as costas, popular entre nobres e oficiais.
+
+- **Brunea**: Colete de couro coberto com plaquetas de metal sobrepostas, semelhante a escamas de peixe.
+
+- **Cota de malha**: Veste longa de anéis metálicos interligados, formando uma malha flexível e resistente.
+
+- **Loriga segmentada**: Armadura composta por tiras horizontais de metal, utilizada por legionários do Império da Força.
+
+- **Meia armadura**: Cota de malha reforçada com placas de metal para proteção adicional.
+
+- **Armadura completa**: Formada por placas de metal que cobrem todo o corpo, incluindo manoplas, grevas e elmo com viseira.
+
+- **Escudo leve**: Geralmente de madeira, amarrado ao antebraço, permitindo que a mão permaneça livre.
+
+- **Escudo pesado**: Normalmente de aço, preso ao antebraço e empunhado com firmeza, exigindo o uso de uma mão.
+
+*Fonte: [Equipamento T20 | Tormenta RPG Wiki](https://tsrd.fandom.com/pt-br/wiki/Equipamento_T20)*
+
+**Poderes de Equipamento**
+
+No universo de Tormenta20, certas combinações de equipamentos concedem poderes especiais aos personagens. Abaixo estão alguns exemplos:
+
+- **Assassino**: Ao usar adaga, couro batido e manto camuflado, ataques contra alvos desprevenidos causam dano aumentado e bônus no multiplicador de crítico.
+
+- **Aventureiro Padrão**: Com escudo leve, espada curta e mochila de aventureiro, recebe pontos de mana temporários após descansos.
+
+- **Bruto dos Ermos**: Usando farrapos de ermitão, gibão de peles e tacape, pode-se utilizar Constituição em vez de Destreza na Defesa.
+
+- **Gladiador da Arena**: Com couro batido, rede e tridente, permite puxar inimigos e realizar ataques adicionais.
+
+- **Mago da Torre**: Utilizando cajado arcano, chapéu arcano e robe místico, é possível memorizar magias adicionais por dia.
+
+*Fonte: [Poderes de Equipamentos para Tormenta20 | Medium](https://medium.com/@roenmid/poderes-de-equipamentos-para-tormenta20-12705b3bea21)*
+
+**Considerações Finais**
+
+- **Personalizações e Encantamentos**: Itens podem ser personalizados ou encantados para adicionar propriedades especiais. Cada encantamento adicional aumenta o custo do item e a dificuldade para fabricá-lo.
+
+- **Limite de Itens Mágicos**: Um personagem pode utilizar um número limitado de itens mágicos simultaneamente. Geralmente, é permitido o uso de múltiplas armas mágicas conforme a capacidade de empunhá-las, além de até três itens mágicos entre armaduras, escudos e acessórios. Poções e pergaminhos não contam nesse limite.
+
+- **Conversão
+
+Entendo que você busca um arquivo de texto detalhado contendo informações sobre armas, armaduras, equipamentos gerais, itens superiores, magias e outros itens negociáveis no universo de Tormenta20. Com base nas informações extraídas das páginas 140 a 175 do livro básico de Tormenta20 e complementadas por fontes adicionais, compilei uma lista abrangente que atende às suas necessidades.
+
+**Itens Mágicos e Encantamentos**
+
+| Nome                 | Tipo             | Descrição                                                                                       | Preço  |
+|----------------------|------------------|-------------------------------------------------------------------------------------------------|--------|
+| Anel da Proteção     | Acessório        | Concede bônus na Defesa ao usuário.                                                             | T$ 2.000 |
+| Capa da Invisibilidade | Acessório       | Permite ao usuário ficar invisível por curtos períodos.                                         | T$ 5.000 |
+| Espada Flamejante    | Arma             | Espada encantada que causa dano adicional de fogo.                                              | T$ 7.000 |
+| Escudo do Guardião   | Escudo           | Escudo mágico que concede resistência adicional contra ataques.                                 | T$ 3.500 |
+
+**Considerações Adicionais**
+
+- **Personalizações e Encantamentos**: Itens podem ser personalizados ou encantados para adicionar propriedades especiais. Cada encantamento adicional aumenta o custo do item e a dificuldade para fabricá-lo. Por exemplo, adicionar um encantamento a uma arma pode aumentar seu custo em T$ 10.000 e requerer um teste de Ofício com CD aumentada.
+
+- **Limite de Itens Mágicos**: Um personagem pode utilizar um número limitado de itens mágicos simultaneamente. Geralmente, é permitido o uso de múltiplas armas mágicas conforme a capacidade de empunhá-las, além de até três itens mágicos entre armaduras, escudos e acessórios. Poções e pergaminhos não contam nesse limite.
+
+- **Conversão de Moedas**: A moeda padrão é o Tibar de Prata (T$). Existem também o Tibar de Cobre (TC), que vale um décimo de um T$, e o Tibar de Ouro (TO), que vale dez T$.
+
+- **Disponibilidade de Itens**: A disponibilidade de itens pode variar conforme a região e o mestre do jogo. Alguns itens podem ser raros ou exigir missões específicas para serem adquiridos.
+
+Este arquivo de texto fornece uma visão abrangente dos itens negociáveis no universo de Tormenta20, permitindo que o bot interaja de forma eficaz com os jogadores em relação a compras, vendas e informações sobre equipamentos e magias.
+
+Entendo que você busca um arquivo de texto detalhado contendo informações sobre armas, armaduras, equipamentos gerais, itens superiores, magias e outros itens negociáveis no universo de Tormenta20. Com base nas informações extraídas das páginas 140 a 175 do livro básico de Tormenta20 e complementadas por fontes adicionais, compilei uma lista abrangente que atende às suas necessidades.
+
+**Itens e Serviços**
+
+| Nome                | Descrição                                                                                 | Preço |
+|---------------------|-------------------------------------------------------------------------------------------|-------|
+| Algemas             | Par de algemas capaz de aprisionar uma criatura Média. Teste de Acrobacia (CD 30) ou Força (CD 26) para escapar. | T$ 50 |
+| Algibeira           | Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.     | T$ 1  |
+| Barraca             | Barraca de lona que conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar. | T$ 10 |
+| Corda               | Rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios.                      | T$ 1  |
+| Kit de primeiros socorros | Estojo contendo materiais básicos para prestar os primeiros socorros.                     | T$ 5  |
+| Pó de cura          | Frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa e cura 2d4 pontos de vida. | T$ 20 |
+| Barril de pólvora   | Explosivo que, ao ser detonado, causa 12d6 pontos de dano (6d6 por fogo e 6d6 por esmagamento) em um raio de 6 metros ao redor do centro da explosão. Um teste de Reflexos (CD 20) reduz o dano à metade. | T$ 250 |
+
+*Observação: A disponibilidade e o preço desses itens podem variar conforme a região e o mestre do jogo.*
+
+**Magias Disponíveis para Compra**
+
+Em Tormenta20, personagens conjuradores podem adquirir magias adicionais através de pergaminhos, grimórios ou treinamento especializado. Abaixo estão algumas magias disponíveis para compra, organizadas por círculo:
+
+*1º Círculo:*
+
+- **Bola de Fogo Menor**: Lança uma pequena esfera de fogo que causa dano em uma área limitada.
+
+- **Cura Leve**: Restaura uma quantidade moderada de pontos de vida a uma criatura tocada.
+
+*2º Círculo:*
+
+- **Raio Congelante**: Dispara um raio de gelo que causa dano e pode reduzir a velocidade do alvo.
+
+- **Proteção contra Armas**: Concede resistência temporária contra danos físicos.
+
+*3º Círculo:*
+
+- **Relâmpago**: Libera um raio elétrico que atravessa múltiplos alvos em linha reta.
+
+- **Cura Moderada**: Restaura uma quantidade significativa de pontos de vida a uma criatura tocada.
+
+*4º Círculo:*
+
+- **Muralha de Fogo**: Cria uma barreira de chamas que causa dano a quem tentar atravessá-la.
+
+- **Metamorfose**: Permite ao conjurador transformar-se em outra criatura de tamanho similar.
+
+*5º Círculo:*
+
+- **Invocação de Elemental**: Chama um elemental para auxiliar o conjurador em combate.
+
+- **Cura Completa**: Restaura todos os pontos de vida de uma criatura tocada.
+
+*Observação: A disponibilidade dessas magias para compra depende do mestre do jogo e da região em que os personagens se encontram. Além disso, o aprendizado de novas magias pode requerer treinamento ou acesso a bibliotecas e mestres especializados.*
+
+**Considerações Finais**
+
+- **Personalizações e Encantamentos**: Itens podem ser personalizados ou encantados para adicionar propriedades especiais. Cada encantamento adicional aumenta o custo do item e a dificuldade para fabricá-lo. Por exemplo, adicionar um encantamento a uma arma pode aumentar seu custo em T$ 10.000 e requerer um teste de Ofício com CD aumentada.
+
+- **Limite de Itens Mágicos**: Um personagem pode utilizar um número limitado de itens mágicos simultaneamente. Geralmente, é permitido o uso de múltiplas armas mágicas conforme a capacidade de empunhá-las, além de até três itens mágicos entre armaduras, escudos e acessórios. Poções e pergaminhos não contam nesse limite.
+
+- **Conversão de Moedas**: A moeda padrão é o Tibar de Prata (T$). Existem também o Tibar de Cobre (TC), que vale um décimo de um T$, e o Tibar de Ouro (TO), que vale dez T$.
+
+- **Disponibilidade de Itens**: A disponibilidade de itens pode variar conforme a região e o mestre do jogo. Alguns itens podem ser raros ou exigir missões específicas para serem adquiridos.
+
+Este arquivo de texto fornece uma visão abrangente dos itens negociáveis no universo de Tormenta20, permitindo que o bot interaja de forma eficaz com os jogadores em relação a compras, vendas e informações sobre equipamentos e magias.
+
+
+Com base nas informações já fornecidas e após uma análise adicional, acredito que os principais itens disponíveis para compra e venda no universo de Tormenta20 foram cobertos nas respostas anteriores. No entanto, há alguns detalhes adicionais que podem enriquecer a compreensão sobre os materiais especiais utilizados na confecção de armas e armaduras:
+
+**Materiais Especiais**
+
+| Material        | Descrição                                                                                                                                                                                                                                      | Preço Adicional |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| **Aço-Rubi**    | Metal com aparência de vidro avermelhado, mas tão duro quanto aço. Armas feitas desse material ignoram resistência a dano. Armaduras e escudos oferecem uma chance de ignorar dano extra de acertos críticos e ataques furtivos (25% para armaduras leves e escudos; 50% para armaduras pesadas). | Armas: +T$ 6.000<br>Armaduras leves: +T$ 3.000<br>Armaduras pesadas: +T$ 6.000<br>Escudos: +T$ 3.000 |
+| **Adamante**    | Metal escuro e denso, encontrado em meteoritos. Armas de adamante aumentam seu dano em um passo. Armaduras e escudos fornecem redução de dano (RD), variando conforme o tipo (RD 2 para armaduras leves e escudos; RD 5 para armaduras pesadas). | Armas: +T$ 3.000<br>Armaduras leves: +T$ 6.000<br>Armaduras pesadas: +T$ 18.000<br>Escudos: +T$ 6.000 |
+| **Gelo Eterno** | Gelo das Montanhas Uivantes que nunca derrete. Armas feitas desse material causam +2 pontos de dano por frio. Armaduras e escudos oferecem resistência a fogo (resistência 5 para armaduras leves e escudos; resistência 10 para armaduras pesadas). | Armas: +T$ 600<br>Armaduras leves: +T$ 1.500<br>Armaduras pesadas: +T$ 3.000<br>Escudos: +T$ 1.500 |
+| **Madeira Negra** | Madeira dura como ferro, originária do Reino da Madeira. Usada em armas de madeira e escudos leves. Armas desse material contam como mágicas para vencer resistência a dano e reduzem o custo em PM de habilidades ativadas em –1. Escudos oferecem +2 em testes de resistência contra magia. | Armas: +T$ 1.500<br>Escudos: +T$ 1.500 |
+| **Matéria Vermelha** | Material de origem lefeu com aparência "borrada". Armas causam +1d6 de dano adicional, mas o usuário sofre 1 ponto de dano a cada ataque corpo a corpo bem-sucedido. Armaduras e escudos impõem chance de falha aos atacantes (10% para escudos e armaduras leves; 25% para armaduras pesadas), além de penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação). | Armas: +T$ 1.500<br>Armaduras leves: +T$ 6.000<br>Armaduras pesadas: +T$ 18.000<br>Escudos: +T$ 6.000 |
+| **Mitral**      | Metal prateado e brilhante, mais leve que o aço. Armas de mitral aumentam a margem de ameaça em 1. Armaduras e escudos têm a penalidade de armadura reduzida em 2. Armaduras pesadas permitem aplicar até dois pontos do bônus de Destreza na Defesa. | Armas: +T$ 1.500<br>Armaduras leves: +T$ 1.500<br>Armaduras pesadas: +T$ 12.000<br>Escudos: +T$ 1.500 |
+| **Couro de Dragão** | Material raro obtido ao derrotar um dragão verdadeiro. Armaduras leves e escudos feitos desse material oferecem Defesa +1, RD 10 contra o tipo de dano do sopro do dragão e resistência a magia +2. Armaduras pesadas proporcionam Defesa +2, RD 20 contra o tipo de dano do sopro e resistência a magia +5. | Armaduras leves: 1 peça de couro<br>Armaduras pesadas: 3 peças de couro<br>Escudos: 1 peça de couro |
+
+*Observação: Os preços adicionais referem-se ao custo extra para fabricar itens com esses materiais especiais.*
+
+Essas informações complementam os detalhes já fornecidos sobre armas, armaduras, equipamentos gerais, itens superiores e magias disponíveis para negociação no universo de Tormenta20. Caso haja algum item específico ou categoria que você deseje explorar mais a fundo, por favor, informe-me para que eu possa fornecer detalhes adicionais.
+
+
+Para enriquecer ainda mais o acervo de dados do mercador, além dos itens já mencionados, seria interessante incluir informações sobre:
+
+**Itens Alquímicos**
+
+Itens alquímicos são produtos criados por alquimistas que podem auxiliar aventureiros de diversas maneiras. Alguns exemplos incluem:
+
+- **Fogo Alquímico**: Um líquido inflamável que, ao ser lançado, incendeia a área de impacto, causando dano por fogo.
+
+- **Ácido**: Substância corrosiva capaz de danificar materiais e causar dano contínuo a criaturas.
+
+- **Pó de Dispersão**: Pó que, ao ser lançado no ar, pode revelar criaturas invisíveis ou ocultas.
+
+A fabricação desses itens requer conhecimentos específicos em alquimia e acesso a materiais apropriados. O processo de criação envolve testes de perícia e consumo de recursos, conforme detalhado no sistema de Tormenta20.
+
+**Itens Mágicos e Raros**
+
+Embora itens mágicos sejam considerados raros em Arton, alguns podem estar disponíveis para compra em metrópoles ou através de comerciantes especializados. Exemplos incluem:
+
+- **Anel de Invisibilidade**: Permite ao usuário tornar-se invisível por um período limitado.
+
+- **Bola de Cristal**: Utilizada para vidência, permitindo observar locais ou pessoas distantes.
+
+- **Tapete Voador**: Um tapete encantado que permite ao usuário voar.
+
+A disponibilidade e o preço desses itens podem variar significativamente, dependendo da região e do mestre do jogo. Geralmente, são caros e difíceis de encontrar, sendo considerados tesouros valiosos.
+
+**Serviços e Treinamentos**
+
+Além de itens físicos, o mercador pode oferecer serviços como:
+
+- **Identificação de Itens**: Utilizando habilidades mágicas ou conhecimento especializado para identificar propriedades de itens desconhecidos.
+
+- **Treinamento em Alquimia**: Oferecer aulas ou tutoriais para personagens interessados em aprender ou aprimorar habilidades alquímicas.
+
+- **Missões de Aquisição**: Disponibilizar missões ou contratos para obtenção de ingredientes raros ou itens específicos, recompensando os aventureiros com itens ou recursos valiosos.
+
+Incorporar essas informações ao acervo do mercador proporcionará uma experiência mais rica e diversificada para os jogadores, ampliando as possibilidades de interação e personalização dentro do universo de Tormenta20.
+
+
+Em Tormenta20, os itens mágicos são classificados de acordo com sua raridade, o que influencia sua disponibilidade e custo. As categorias de raridade são:
+
+- **Comum**: Itens fáceis de encontrar, geralmente disponíveis em mercados maiores.
+- **Incomum**: Itens menos frequentes, encontrados em lojas especializadas ou através de contatos específicos.
+- **Raro**: Itens difíceis de encontrar, geralmente exigindo missões ou negociações com colecionadores.
+- **Muito Raro**: Itens extremamente difíceis de obter, muitas vezes únicos ou lendários, acessíveis apenas por meio de grandes aventuras ou favores significativos.
+
+A raridade de um item não apenas determina sua disponibilidade, mas também afeta seu preço e o nível de poder que ele oferece. É importante que os mestres de jogo considerem essas categorias ao introduzir itens mágicos em suas campanhas, garantindo um equilíbrio adequado e valorizando a progressão dos personagens.
+
+Para uma compreensão mais detalhada sobre a raridade e a disponibilidade de itens em Tormenta20, recomenda-se consultar as páginas 257 a 259 do livro básico, que abordam a economia das cidades de Arton e fornecem diretrizes sobre como os itens mágicos são distribuídos e adquiridos dentro do jogo.
+
+Além disso, é importante notar que, conforme discutido no fórum da Jambô Editora, pergaminhos não estão à venda, apenas poções. A disponibilidade de itens mágicos é controlada pelo mestre do jogo para manter o equilíbrio da narrativa e da progressão dos personagens. citeturn0search4
+
+Ao considerar a inclusão de itens mágicos em uma campanha, é essencial equilibrar a raridade e o poder dos itens com o nível dos personagens e o contexto da história, garantindo uma experiência de jogo desafiadora e recompensadora.
+
+
+Em Tormenta20, os itens mágicos são classificados de acordo com sua raridade, o que influencia diretamente sua disponibilidade e custo. Abaixo, apresento uma tabela com os valores estimados para cada categoria de raridade:
+
+**Tabela de Preços por Raridade de Itens Mágicos**
+
+| Raridade     | Preço Estimado (T$) |
+|--------------|---------------------|
+| **Comum**    | 100 a 500           |
+| **Incomum**  | 500 a 5.000         |
+| **Raro**     | 5.000 a 15.000      |
+| **Muito Raro** | 15.000 a 50.000     |
+| **Lendário** | 50.000 ou mais      |
+
+*Observação: Os valores acima são estimativas gerais e podem variar conforme o cenário da campanha e a decisão do mestre do jogo.*
+
+**Exemplos de Itens Mágicos e Seus Preços**
+
+Para ilustrar a aplicação desses valores, segue uma lista de exemplos de itens mágicos com suas respectivas raridades e preços estimados:
+
+- **Anel de Proteção +1** (Incomum): T$ 1.000
+- **Espada Longa +1** (Incomum): T$ 2.000
+- **Armadura de Aço-Rubi** (Raro): T$ 12.000
+- **Capa da Invisibilidade** (Muito Raro): T$ 30.000
+- **Martelo dos Titãs** (Lendário): T$ 75.000
+
+*Nota: Os preços acima são exemplos e podem variar conforme a narrativa e o equilíbrio desejado pelo mestre.*
+
+**Considerações Importantes**
+
+- **Disponibilidade**: Itens mágicos de maior raridade são mais difíceis de encontrar e podem exigir que os personagens realizem missões específicas ou negociem com NPCs influentes para adquiri-los.
+
+- **Personalização**: O mestre do jogo tem a liberdade de ajustar os preços e a disponibilidade dos itens mágicos conforme o andamento da campanha, garantindo um equilíbrio adequado e uma experiência de jogo satisfatória para todos os participantes.
+
+Para uma compreensão mais aprofundada sobre itens mágicos e suas aplicações em Tormenta20, recomendo consultar o livro básico do jogo e materiais adicionais disponíveis no site oficial da Jambô Editora.
+
+Acessórios
+Amuletos de proteção, anéis de invisibilidade, bolas de cristal, tapetes voadores... Todos os itens mágicos que não são armas, armaduras, escudos, poções ou pergaminhos são acessórios.
+
+Para gerar um acessório aleatoriamente, role nas tabelas a seguir, conforme a categoria do item (menor, médio ou maior).
+
+Acessórios Menores
+D%	Acessório	Preço
+Alev (DB)	-
+Balança Moral (DB)	-
+Cálices Encantados de Mulk (JH)	-
+Copo de Ar (DB)	-
+Flauta Animalizante (DB)	-
+Lampião Mecanomágico (JH)	-
+Pingente da Sereia Adormecida (JH)	-
+Truque na Mágica (DB)	-
+01-02	Anel do sustento	valor = T$ 3.000
+Amuleto do Servo (DB)	valor = T$ 3.000
+03-07	Bainha mágica	valor = T$ 3.000
+08-12	Corda da escalada	valor = T$ 3.000
+13-14	Ferraduras da velocidade	valor = T$ 3.000
+15-19	Garrafa da fumaça eterna	valor = T$ 3.000
+20-24	Gema da luminosidade	valor = T$ 3.000
+25-29	Manto élfico	valor = T$ 3.000
+30-34	Mochila de carga	valor = T$ 3.000
+Baralho Etéreo (DB)	valor = T$ 4.000
+35-40	Brincos da sagacidade	valor = T$ 4.500
+41-46	Luvas da delicadeza	valor = T$ 4.500
+47-52	Manoplas da força do ogro	valor = T$ 4.500
+53-59	Manto da resistência	valor = T$ 4.500
+60-65	Manto do fascínio	valor = T$ 4.500
+66-71	Pingente da sensatez	valor = T$ 4.500
+72-77	Torque do vigor	valor = T$ 4.500
+Frasco de Galadriel (DB)	valor = T$ 4.800
+78-82	Chapéu do disfarce	valor = T$ 6.000
+83-84	Flauta fantasma	valor = T$ 6.000
+85-89	Lanterna da revelação	valor = T$ 6.000
+A Maldição da Cartola (DB)	valor = T$ 6.000
+90-96	Anel da proteção	valor = T$ 9.000
+97-98	Anel do escudo mental	valor = T$ 9.000
+Braceletes do Guerreiro Dragão (DB)	valor = T$ 9.000
+Cetro do Poder Usurpado (RT)	valor = T$ 9.000
+Colar do General Dragão (DB)	valor = T$ 9.000
+99-100	Pingente da saúde	valor = T$ 9.000
+Acessórios Médios
+D%	Acessório	Preço
+Cálice de Ymfrit (RG)	-
+Criadora de Meios (DB)	-
+Falange de Santa Imuen (RG)	-
+Parvathar, o Pulmão da Montanha (JH)	-
+01-04	Anel de telecinesia	valor = T$ 10.500
+05-08	Bola de cristal	valor = T$ 10.500
+09-10	Caveira maldita	valor = T$ 10.500
+11-14	Botas aladas	valor = T$ 15.000
+Manto Mágico (DB)	valor = T$ 15.000
+15-18	Braceletes de bronze	valor = T$ 16.500
+19-24	Anel da energia	valor = T$ 21.000
+25-30	Anel da vitalidade	valor = T$ 21.000
+31-34	Anel de invisibilidade	valor = T$ 21.000
+35-38	Braçadeiras do arqueiro	valor = T$ 21.000
+Braceletes das Escamas (NPC)	valor = T$ 21.000
+39-42	Brincos de Marah	valor = T$ 21.000
+Coroa de Milghazan (DB)	valor = T$ 21.000
+43-46	Faixas do pugilista	valor = T$ 21.000
+47-50	Manto da aranha	valor = T$ 21.000
+51-54	Vassoura voadora	valor = T$ 21.000
+55-58	Símbolo abençoado	valor = T$ 21.000
+Varinha Conspurcada (AA)	valor = T$ 21.000
+Virtude Inquebravel (DB)	valor = T$ 21.000
+Face Dracônica (NPC)	valor = T$ 25.000
+59-64	Amuleto da robustez	valor = T$ 25.500
+65-68	Botas velozes	valor = T$ 25.500
+69-74	Cinto da força do gigante	valor = T$ 25.500
+75-80	Coroa majestosa	valor = T$ 25.500
+81-86	Estola da serenidade	valor = T$ 25.500
+87-88	Manto do morcego	valor = T$ 25.500
+Manto do Viajante (JH)	valor = T$ 25.500
+89-94	Pulseiras da celeridade	valor = T$ 25.500
+95-100	Tiara da sapiência	valor = T$ 25.500
+Acessórios Maiores
+D%	Acessório	Preço
+Cabana do Mago (JH)	-
+01-02	Elmo do teletransporte	valor = T$ 30.000
+03-04	Gema da telepatia	valor = T$ 30.000
+05-09	Gema elemental	valor = T$ 30.000
+10-15	Manual da saúde corporal	valor = T$ 30.000
+16-21	Manual do bom exercício	valor = T$ 30.000
+22-27	Manual dos movimentos precisos	valor = T$ 30.000
+28-34	Medalhão de Lena	valor = T$ 30.000
+35-40	Tomo da compreensão	valor = T$ 30.000
+41-46	Tomo da liderança e influência	valor = T$ 30.000
+47-52	Tomo dos grandes pensamentos	valor = T$ 30.000
+Medalhão dos Povos (DB)	valor = T$ 40.000
+53-57	Anel refletor	valor = T$ 51.000
+58-60	Cinto do campeão	valor = T$ 51.000
+61-67	Colar guardião	valor = T$ 51.000
+68-72	Estatueta animista	valor = T$ 51.000
+73-77	Anel da liberdade	valor = T$ 60.000
+78-82	Tapete voador	valor = T$ 60.000
+83-87	Braceletes de ouro	valor = T$ 64.500
+88-89	Espelho da oposição	valor = T$ 75.000
+Fragmento de Filactério (AA)	valor = T$ 90.000
+90-94	Robe do arquimago	valor = T$ 90.000
+Cetro da Permuta Funesta (DB)	valor = T$ 95.000
+95-96	Orbe das tempestades	valor = T$ 97.500
+97-98	Anel da regeneração	valor = T$ 150.000
+99-100	Espelho do aprisionamento	valor = T$ 150.000
+Lentes da Lua (DB)	valor = T$ 150.000
+Descrição dos Acessórios
+A Maldição da Cartola (DB). A cartola sortuda é um item mágico, um artefato de Nimb. Além de servir como uma mochila de carga, seu usuário recebe uma sorte extraordinária. Sempre que rola um dado, pode gastar 1 PM para rolar de novo. Não há limite para quantas vezes o mesmo dado pode ser rolado. Porém, a cada vez que essa habilidade é usada, é necessário fazer um teste de resistência de Vontade (CD 15, +5 para cada vez que a cartola foi usada). O poder da cartola sortuda não pode ser usado contra esse teste. No caso de uma falha, a vítima é amaldiçoada e começa a se transformar em um ahlotrak. A pele começa a derreter, os olhos começam a saltar do rosto, nasce um rabo. A vítima fica atordoada e, a cada rodada, perde 2d20 pontos de vida. Quando os pontos de vida chegam a zero, a consciência da vítima se perde para sempre e ela se transforma completamente em um ahlotrak.
+
+Cada cartola também tem poderes adicionais imprevisíveis; jogue aleatoriamente na tabela de itens mágicos (acessórios médios) de Tormenta20; a cartola replica as propriedades de 1d3 outros itens.
+
+Alev (DB). Uma vela que causa escuridão em vez de luz. Possui 5 usos, sendo que cada uso dura no máximo uma hora (mas sem mínimo).
+
+Amuleto da Robustez. Este disco com corrente de ouro é usado como um colar. Você recebe +2 em Constituição (somente após um dia de uso).
+
+Amuleto do Servo (DB). Esse amuleto consiste de uma pedra preciosa envolta em uma rede de fios de ouro. Dentro dessa pedra reside uma fagulha do poder de um dragão. O usuário do amuleto recebe redução 5 contra o tipo de dano do sopro deste dragão e -5 em testes de resistência contra suas habilidades ou em qualquer teste de ações ofensivas contra ele. Além disso, o servo pode lançar a magia Aviso para enviar mensagens para seu mestre.
+
+Anel da Barreira (DB)*. O usuário aprende e pode lançar a magia Armadura Arcana. Uma vez por rodada, ele pode lançar esta magia com o aprimoramento de execução como reação sem gastar PM (mas ele ainda pode gastar PM para outros aprimoramentos).
+
+Anel da Energia. Você recebe +5 PM (somente após um dia de uso).
+
+Anel da Liberdade. Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de Libertação.
+
+Anel da Proteção. Este anel desvia ataques contra seu usuário. Você recebe +2 de Defesa.
+
+Anel da Regeneração. Você recebe Cura Acelerada 5 (somente após um dia de uso).
+
+Anel da Vitalidade. Você recebe +10 PV (somente após um dia de uso).
+
+Anel de Invisibilidade. Ao colocar este anel de prata, você fica sob efeito de Invisibilidade. O efeito termina se você fizer um ataque ou lançar uma magia ofensiva, mas você pode tirar e recolocar o anel (uma ação padrão) para que ele volte a funcionar.
+
+Anel de Telecinesia. Você pode lançar Telecinesia (CD Int). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.
+
+Anel do Escudo Mental. Você recebe imunidade a magias de adivinhação.
+
+Anel do Sustento. Você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar. Os efeitos do anel só se ativam após uma semana de uso.
+
+Anel do Tempo (DB)*. Concede +4 na Defesa. Como uma ação padrão, você pode aumentar seu bônus de Defesa para +6 por uma cena e lançar sobre si as magias Concentração de Combate e Orientação sem gastar PM. Se fizer isso, role 1d12. Caso o resultado deste dado seja um 1, o mestre escolhe um dos seus testes nessa cena para ser nublado pelo tempo. Esse teste terá um resultado 1, independente dos seus bônus ou do resultado do dado.
+
+Anel Refletor. Este aro de platina é poderoso contra conjuradores. Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao seu conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela.
+
+Bainha Mágica. Esta bainha de couro curtido e prata muda de tamanho para acomodar qualquer arma corpo a corpo. Você pode lançar Arma Mágica em qualquer arma na bainha sem pagar seu custo em PM.
+
+Balança Moral (DB). Uma pequena balança que, quando consultada, mostra qual o rumo mais bondoso e justo a se tomar numa decisão (aquele que beneficiará mais o bem comum e causará menos dano). Essencialmente, é um juiz moral infalível. Possui um único uso.
+
+Baralho Etéreo (DB). Essa caixa gasta de baralho, com acabamento preto fosco, contém um baralho de cartas impecáveis com temática de fantasmas. Além de servir como um kit de jogatina aprimorado (bônus de +2 em Jogatina), pode ser usado para lançar a magia augúrio como um clérigo do nível do usuário.
+
+Bola de Cristal. Esta pequena esfera revela pessoas e lugares distantes. Olhar através dela é uma ação completa e gera a magia Vidência (CD Sab).
+
+Botas Aladas. Você pode gastar 2 PM para fazer asas brotarem dos calcanhares destas botas e receber deslocamento de voo 12m por uma rodada. Você pode gastar 1 PM no início de cada um de seus turnos para manter esse efeito.
+
+Botas de Alward (DB)*. Concedem +2 na Destreza, +2 na Defesa e aumentam seu deslocamento em +9m. Além disso, você pode executar uma ação padrão adicional em seu turno (não cumulativo com o efeito da magia Velocidade).
+
+Botas Velozes. Você recebe +3m em seu deslocamento e pode lançar Velocidade (apenas sobre você mesmo).
+
+Braçadeiras do Arqueiro. Você recebe +2 em rolagens de dano com armas de ataque à distância (cumulativo com outros itens).
+
+Braceletes das Escamas (NPC). Criados por Actéia, estes braceletes de aço escurecido são entalhados de forma a parecer escamas de dragão. Fornecem redução de dano 5 e contam como uma luva de ferro.  Os poderes mágicos desse item só funcionam com devotos de Kallyanadroch.
+
+Braceletes de Bronze. Estes braceletes geram um campo de força invisível, porém tangível. Você recebe +4 na Defesa, cumulativo com outros itens mágicos, mas não com armaduras.
+
+Braceletes de Ouro. Como braceletes de bronze, mas fornece +8 na Defesa.
+
+Braceletes do Guerreiro Dragão (DB). Esses grossos braceletes de couro escuro contam com uma grande gema incrustada em sua superfície, como o olho de um dragão vigilante. Uma vez por rodada, quando obtiver um acerto crítico com garras, você pode gastar 1 PM para fazer um ataque adicional com garras como uma ação livre.
+
+Brincos da Sagacidade. Este par de brincos de safira aguça o raciocínio. Você recebe +1 em Inteligência (somente após um dia de uso).
+
+Brincos de Marah. Este par de brincos brancos é abençoado pela Deusa da Paz. A primeira criatura que o atacar em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá a ação. Se você atacar uma criatura, o efeito dos brincos é cancelado por um dia. Se você possuir Aparência Inofensiva (ou um poder similar), os efeitos acumulam, afetando as duas primeiras criaturas que o atacarem em uma cena.
+
+Cabana do Mago (JH). O item deixado por Fiz-Grin é uma Cabana do Mago. Ao ser ativada com uma ação padrão, a miniatura cresce até atingir o tamanho de uma pequena cabana. O item reproduz os mesmos efeitos da magia Refúgio, com o aprimoramento para criar uma cabana. Porém, o item foi modificado pela magia de Fiz-Grin. Sempre que um personagem descansar na Cabana do Mago, deve rolar 1d4. Se o resultado for 1, o personagem se torna vítima de uma pegadinha de Fiz-Grin; por um mês, pequenos itens inofensivos, como pedrinhas, flores ou cogumelos, ficam "surgindo" entre seu equipamento, efetivamente ocupando 1 espaço de sua capacidade de carga. Um personagem só pode ser vítima de uma dessas pegadinhas por vez.
+
+Cajado da Destruição (DB). Esse cajado magnífico aprimora o raio arcano de seu usuário. A CD de qualquer teste de resistência contra o raio aumenta em +2 e ele causa um dado de dano adicional. Além disso, quando usa uma ação para disparar um raio arcano, o usuário pode gastar 3 PM para disparar um segundo raio contra outro alvo.
+
+Cálice de Ymfrit (RG). Qualquer líquido colocado neste cálice é purificado, deixando de conter substâncias nocivas, tóxicas ou venenosas. Um personagem que beba do cálice cura 2d10 pontos de vida e recebe +5 no próximo teste de resistência contra uma doença. Esse efeito funciona apenas para o primeiro personagem que beber dele a cada dia. Além disso, beber dele pode deter o avanço de enfermidades e prolongar a vida de alguém em idade avançada. Por fim, um domínio que possui o Cálice de Ymfrit torna-se imune ao evento aleatório peste.
+
+Cálices Encantados de Mulk (JH). Um par de cálices de vidro de aparência elegante. Os cálices são idênticos para todas as pessoas, exceto seu usuário: quando a palavra de comando é pronunciada, o dono enxerga um dos cálices ficar escuro. O cálice escuro torna venenoso qualquer líquido dentro dele, e quem beber um gole da taça deve passar em um teste de Fortitude CD 26, ou ficará enjoado e sofrerá 2d12 pontos de dano de veneno por rodada por 10 rodadas. Já o outro cálice transforma líquido em antídoto — ideal para chantagens...
+
+Caveira Maldita. Esta pedra esculpida em formato de crânio gera o efeito da magia Profanar, com o crânio como ponto de origem. Mortos-vivos e devotos de deuses que canalizam apenas energia negativa na área de efeito recebem +2 em testes e Defesa.
+
+Centelha Solar (DB)*. Não ocupa espaços e não precisa ser vestida. Ela fornece ao usuário resistência a magias divinas +5 e +5 em testes de perícia e rolagens de dano contra conjuradores de magias divinas. Esses bônus são dobrados contra divindades.
+
+Cetro da Permuta Funesta (DB). Esta é uma maça formidável, que carrega um toque profano e um traço tumular. Além de suas propriedades naturais, o portador do Cetro pode lançar a magia "Roubar a Alma" (com CD Int ou Car, a escolha do usuário) sem gastar PM, utilizando o Cetro como um foco para armazenar as almas. Diferentemente de outros objetos, o Cetro não tem limites quanto à quantidade de almas que pode armazenar.
+
+Maldição: Contudo, o Cetro é amaldiçoado. Quando encontrado e no início de cada aventura, ele absorve uma parte da energia vital do seu portador, causando uma perda permanente de 1 ponto de Constituição (que pode ser revertida com a remoção da maldição). Além disso, embora não seja necessário gastar PM para lançar "Roubar a Alma" com o Cetro, o preço a pagar é alto. Ao usar este poder, um de seus aliados em alcance curto (aleatoriamente determinado) é morto. O Cetro ignora seres imortais ou devotos de Thyatis, selecionando alvos que podem morrer e permanecer assim. A única maneira de remover a maldição é utilizar o Cetro para capturar a alma de um lich de Aslothia. Isso libertará as almas presas no Cetro e trará de volta à vida qualquer criatura morta para alimentar seu poder.
+Cetro do Poder Usurpado (RT). Esse cetro se parece com a pata de um dragão segurando um orbe em sua extremidade. Quando o empunha, você pode usar o poder Raio Arcano (CD seu atributo-chave de magias ou Car); se já o possuir, em vez disso cada dado de dano aumenta em um passo.
+
+O cetro concede habilidades adicionais conforme sua ligação com dragões. Se você for um devoto de Kallyadranoch, pode usar também o poder Raio Elemental; se já o possuir, em vez disso seu custo é reduzido a 0 PM. Se for um kallyanach, o dano do seu Raio Arcano aumenta em 1 passo adicional e, se você for um feiticeiro de linhagem dracônica, a CD para resistir ao seu Raio aumenta em +2.
+
+Chapéu do Disfarce. Você pode lançar Disfarce Ilusório (CD Car), com o aprimoramento que inclui odores e sensações e muda o bônus em Enganação para disfarces para +20, sem pagar seu custo em PM. Você não pode usar outros aprimoramentos. Como parte do disfarce, o chapéu pode mudar para um elmo, faixa, tiara, gorro, touca e assim por diante.
+
+Cinto da Força do Gigante. Este cinto largo é feito de couro com rebites de ferro. Você recebe +2 em Força (somente após um dia de uso).
+
+Cinto do Campeão. Este cinturão de ouro é cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Você recebe +1 em Força e a habilidade Briga (veja a página 76; somente após um dia de uso). Caso já a possua, seu dano desarmado será calculado como se você possuísse quatro níveis de lutador a mais (máximo 2d12). Por fim, caso possua o poder Torcida, o bônus que você recebe por ele aumenta para +3. Estes cintos eram dados aos vencedores dos jogos gladiatoriais do Império de Tauron. A cada ano, diversos combatentes de Arton viajavam a Tiberus para competir e ter uma chance de ganhar um destes itens.
+
+Colar do General Dragão (DB). Esse amuleto é feito das presas de um dragão. Seu usuário pode usar Servos do Dragão como uma ação padrão e direcionar os kobolds invocados uma vez por rodada como uma ação livre.
+
+Colar Guardião. Este diamante lapidado preso em uma corrente de platina deflete ataques contra seu usuário. Você recebe +5 na Defesa.
+
+Copo de Ar (DB). Literalmente um "copo de ar". Uma vez que alguém "beba" deste copo, pode respirar sob a água. Possui 5 usos, sendo que cada uso dura no máximo uma hora (mas sem mínimo).
+
+Corda da Escalada. Esta corda de 15m é bastante fina, mas forte o suficiente para suportar até seis criaturas Médias (ou 120 espaços). Com um comando (uma ação de movimento), a corda se move em qualquer direção (incluindo para cima) a 3m por rodada, fixando-se firmemente onde você quiser. Ela pode se desamarrar e voltar da mesma forma.
+
+Coroa de Milghazan (DB). Permite que seu usuário lance as magias "Enfeitiçar," "Mente Divina" (somente em si mesmo) e "Sussurros Insanos" (com CD Int ou Car, a escolha do usuário). Caso o usuário já conheça essas magias, o custo para lançá-las é reduzido em -1 PM.
+
+Maldição: No entanto, o poder da Coroa é alimentado pela sanidade dos outros. Para acessar seus poderes, o usuário deve gastar uma ação de movimento para confundir um aliado em alcance curto (um personagem jogador específico). Caso essa confusão seja removida ou termine, os poderes da coroa, incluindo as magias ativas, são desativados, e é necessário recarregá-la para utilizá-la novamente. A única forma de remover a maldição é utilizar a coroa em si mesmo enquanto enfrenta uma grande ameaça com ND maior que seu nível. O usuário deve permanecer confuso durante todo o encontro, ou a maldição não será desfeita.
+Coroa Majestosa. Esta coroa de ouro possui dezenas de pedras preciosas. Você recebe +2 em Carisma (somente após um dia de uso).
+
+Elmo do Teletransporte. Você pode lançar Salto Dimensional e Teletransporte, mas apenas em você mesmo. Caso já conheça as magias, o custo para lançá-las diminui em –1 PM.
+
+Espelho da Oposição. Este item lembra um espelho normal com cerca de 1m de comprimento e 1,5m de altura. Pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Quando uma criatura observa seu reflexo, o espelho cria uma cópia sua, com as mesmas habilidades e equipamento. A duplicata ataca a criatura original; quando um dos dois é derrotado, a duplicata e seus itens desaparecem.
+
+Espelho do Aprisionamento. Este item de cristal, com 1,5m de altura e moldura de metal, pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Qualquer criatura que se aproxime a alcance curto do espelho do aprisionamento e enxergue seu próprio reflexo deve passar em um teste de Reflexos (CD Int) ou será transportada magicamente para um espaço extradimensional dentro do espelho, ficando presa ali. O tamanho da criatura não importa — mas construtos, mortos-vivos e objetos não podem ser transportados. Com um comando, é possível conversar com uma criatura presa no espelho ou libertá-la. Se o espelho for quebrado, todas as criaturas dentro dele são libertadas.
+
+Estatueta Animista. Esta estatueta de pedra é esculpida na forma de um animal. Quando é atirada no chão e a palavra de comando é proferida, transforma-se no animal correspondente. O animal fornece os benefícios de um parceiro veterano até o fim da cena, quando então volta à sua forma de estatueta. O tipo de parceiro é definido pelo animal. raposa (ajudante; perícias definidas na fabricação do item), onça (assassino), águia (atirador), lobo (combatente), leão (fortão) ou urso (guardião).
+
+Estola da Serenidade. Esta faixa de pano com inscrições mágicas é usada sobre a nuca, com as duas extremidades caindo na frente do corpo. Você recebe +2 em Sabedoria (somente após um dia de uso).
+
+Face Dracônica (NPC). Essa máscara dourada, semelhante ao rosto estilizado de um dragão, fortalece o poder arcano do usuário. Fruto do poder de Ilítia, fornece +2 na CD para resistir às suas habilidades mágicas (incluindo magias) e conta como um medalhão de prata. Os poderes mágicos desse item só funcionam com devotos de Kallyanadroch.
+
+Faixas do Pugilista. Estas faixas surradas são amarradas nos punhos, nos braços ou na testa. Você recebe +2 em testes de ataque e rolagens de dano com ataques desarmados (cumulativo com outros itens).
+
+Falange de Santa Imuen (RG). Esta relíquia é um pedaço da falange de Santa Imuen, que tinha o dom da invisibilidade. O ossinho é protegido por um vidro, que deve ser pendurado em um cordão no pescoço ou deixado, de alguma outra forma, em contato direto com o corpo do usuário. A magia contida neste item sagrado protege o usuário contra todas as formas de adivinhação. A pessoa não pode ser detectada ou localizada através de nenhum meio mágico.
+
+Ferraduras da Velocidade. Este conjunto de ferraduras pode ser fixado nos cascos de um cavalo (ou outro parceiro montaria, a critério do mestre) para aumentar seu deslocamento em +3m.
+
+Flauta Animalizante (DB). Uma flauta que faz com que uma criatura qualquer passe a se comportar (em termos de regras) como sendo da categoria animal, durante uma cena. Por exemplo, pode ser usada em um lefeu para que seja vulnerável a certas habilidades. Não funciona contra criaturas com ND maior que o nível do usuário. Possui um único uso.
+
+Flauta Fantasma. Se for treinado em Atuação, você pode lançar Esculpir Sons (CD Car) sem pagar seu custo em PM.
+
+Fragmento de Filactério (AA). É uma parte do poder mágico de um lich que pode sobreviver após a destruição de seu filactério. Este fragmento concede +20 PM quando utilizado (após um dia de uso). Um fragmento de filactério só pode ser obtido de um filactério já destruído e não pode ser fabricado.
+
+Frasco de Galadriel (DB). Um pequeno frasco de cristal com a água da fonte de Galadriel, que mantinha a luz da estrela de Eärendil. Uma vez por dia, com uma palavra de comando, a água dentro do frasco se ilumina como na magia luz do dia por um minuto. Além disso, qualquer criatura sensível à luz no alcance da magia (como no traço racial sensibilidade à luz ou o talento Raça Subterrânea) não pode se aproximar do portador do item, como na magia repelir insetos.
+
+Frutos da Espada-Mãe (AA). Ingerir um fruto da espada-mãe cura 4d8+4 pontos de vida e remove todas condições negativas, doenças ou venenos que um personagem esteja sofrendo. Um fruto da espada-mãe não consumido apodrece ao final da aventura.
+
+Garrafa da Fumaça Eterna. Você pode abrir a tampa desta ânfora de metal para lançar a magia Névoa sem pagar seu custo em PM. A fumaça persiste até a garrafa ser tampada. Após isso, dissipa-se no fim da cena (ou após 4 rodadas, sob vento forte, ou 1 rodada, sob um vendaval).
+
+Gema da Luminosidade. Este cristal tem a aparência de um longo prisma. Com um comando, emite luz equivalente a uma tocha ou então um raio brilhante, que deixa uma criatura em alcance curto cega por 1d4 rodadas (Fort CD Car evita).
+
+Gema da Telepatia. Você pode lançar Compreensão e Enfeitiçar (CD Car) sem pagar seu custo em PM.
+
+Gema Elemental. Você pode lançar Conjurar Elemental sem pagar seu custo em PM.
+
+Lampião Mecanomágico (JH). O lampião não tem limite de usos e afeta qualquer não humano inteligente em alcance longo. As vítimas devem fazer testes de Vontade contra CD 20 (este é um efeito mental). Em caso de falha, o usuário do lampião tem direito a decidir uma ação de movimento da vítima por rodada. A vítima ainda pode realizar sua ação padrão e não pode fazer ações completas. O usuário só pode obrigar a vítima a se mover desta forma — não pode, por exemplo, forçá-la a sacar uma arma. A vítima tem direito a um novo teste por rodada. Contudo, mesmo que passe no teste, não se torna imune ao poder do lampião. Suas peças contam como T$ 300 em matéria-prima para itens gerais e engenhocas.
+
+Lanterna da Revelação. Este item funciona como um lampião normal, mas sua luz revela todas as criaturas e objetos invisíveis no alcance.
+
+Lentes da Lua (DB). Um par de lentes feita de puro luar. Quando vestido, confere redução de dano 30. Só pode ser criado por Harle ou outro deus dragão.
+
+Luvas da Delicadeza. Estas luvas de tecido fino permitem manipulação delicada. Você recebe +1 em Destreza (somente após um dia de uso).
+
+Manoplas da Força do Ogro. Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (somente após um dia de uso).
+
+Manto da Aranha. Este manto é feito de seda negra com fios de prata bordados. Você recebe deslocamento de escalada igual ao seu deslocamento terrestre, +5 em testes de resistência contra venenos e imunidade a teias mundanas ou mágicas. Além disso, pode lançar Teia (CD Des). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.
+
+Manto da Resistência. Este manto de tecido grosso e pesado protege seu usuário. Você recebe +2 em testes de resistência.
+
+Manto do Fascínio. Este manto de veludo possui bordados de ouro. Você recebe +1 em Carisma (somente após um dia de uso).
+
+Manto do Morcego. Este manto marrom escuro ou negro fornece +5 em Furtividade e permite que você fique pendurado de ponta-cabeça no teto, como um morcego. Além disso, você pode gastar uma ação padrão para segurar as pontas do manto e se transformar em um morcego. Seu tamanho muda para Minúsculo e você recebe deslocamento de voo 12m e uma arma natural de mordida (dano 1d4, perfuração). Em outros aspectos, isso funciona como a Forma Selvagem do druida. Você só pode se transformar em morcego à noite ou em ambientes escuros.
+
+Manto do Viajante. Este manto velho e surrado tem marcas de muitas viagens. Fornece +5 em Sobrevivência e +3m em deslocamento, mas apenas em ambientes ermos (não urbanos). Além disso, você pode lançar a magia Primor Atlético (apenas em você mesmo). 1 espaço.
+
+Manto Élfico. Indistinguível de um manto cinza comum. Entretanto, quando usado com o capuz cobrindo o rosto, fornece +5 em Furtividade.
+
+Manto Mágico (DB). Defesa +4
+
+Manual do Bom Exercício. Este tomo volumoso contém exercícios de musculação, mas escondido entre as palavras há um poderoso efeito mágico. Ler o livro leva uma semana e aumenta seu valor de Força em +1 permanentemente (não cumulativo com outras leituras do livro). Assim que o livro é lido, a magia desaparece de suas páginas e ele se torna um item mundano.
+
+Manual dos Movimentos Precisos. Este tomo volumoso descreve exercícios de coordenação e equilíbrio, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Destreza.
+
+Manual da Saúde Corporal. Este tomo volumoso contém exercícios de resistência e dietas saudáveis, mas suas palavras trazem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Constituição.
+
+Medalha do Deicida (DB)*. Este item concede +3 em Constituição e +5 em testes de resistência. Além disso, no início de cada combate seu usuário recebe 50 pontos de vida temporários que duram até o final da cena.
+
+Medalhão de Lena. Quando você é reduzido a 0 ou menos PV, esta joia emite uma explosão de energia positiva que cura 100 PV (antes que você caia). Este poder só se ativa uma vez por dia.
+
+Medalhão dos Povos (DB). Oferece um bônus de +2 em testes de ataque e rolagens de dano (cumulativo com outros itens) e permite que seu portador lance a magia "Campo de Força." Caso o portador já conheça a magia, o custo para lançá-la é reduzido em -1 PM.
+
+Maldição: No entanto, a cada amanhecer, o portador acorda com uma fraqueza diferente, determinada aleatoriamente, que resulta em uma penalização de -2 em um atributo específico (afetando pontos de vida e pontos de mana). A fraqueza é determinada por uma rolagem de 1d6 feita pelo mestre. A única forma de remover a maldição do Medalhão dos Povos é cumprindo uma missão para seis indivíduos não-humanos diferentes enquanto estiver sob o efeito de diferentes fraquezas. O mestre tem a palavra final sobre o que constitui uma missão.
+Meteorito (DB). Este pequeno pedaço de pedra ou metal semiderretido é encontrado na cabeceira ou próximo de uma “vítima” de um mercador onírico. Uma criatura pode segurar um meteorito para tentar descobrir qual magia está escondida nele, bastando se concentrar (uma ação padrão). O mestre deve rolar na tabela de poções ou sortear no Baralho de Magias, para determinar qual magia está contida no meteorito (meteoritos contêm apenas magias de 1° e 2° círculos).
+
+Uma vez que saiba a magia armazenada no meteorito, o personagem pode conjurar a magia contida seguindo as regras de Pergaminhos. Após ativado, o meteorito se esfarela e não pode mais ser usado. Um Mercador Onírico pode conjurar a magia contida no meteorito seguindo as mesmas regras dos jogadores.
+
+Mochila de Carga. Este item, que parece uma simples mochila de pano, está na verdade ligado a um espaço interdimensional — fazendo com que seja maior por dentro do que por fora. A mochila de carga aumenta sua capacidade de carga em 10 espaços (ela própria não gasta um espaço). Se a mochila for rasgada, os objetos em seu interior são destruídos. Criaturas vivas colocadas no interior da mochila podem sobreviver até 10 minutos, mas depois disso ficarão sem ar.
+
+Monóculo da Verdade (DB)*. Este item concede +5 em Iniciativa, Intuição e Percepção. Seu portador recebe +10 PM (somente após um dia de uso) e pode lançar as magias Visão da Verdade e Orientação como um clérigo do mesmo nível. Caso já conheça essas magias, pode lançá-las sem custo em PM (pagando apenas pelos aprimoramentos).
+
+Nuvem de Al-Gazara (DB)*. Este item concede deslocamento de voo de 24m e +5 em Acrobacia, Iniciativa, Reflexos e na Defesa. Caso o usuário tenha a habilidade Esquiva, esses bônus aumentam em +5 contra criaturas com deslocamento inferior ao seu. A Nuvem de Al-Gazara não precisa ser empunhada nem vestida, mas ocupa um espaço de parceiro.
+
+O Incrível Mapa de Alastar (DB). Permite que seu portador lance a magia "Mapear" com o próprio mapa como alvo (caso o portador já conheça a magia, o custo para lançá-la é reduzido em -1 PM). Enquanto a magia estiver ativa, o portador recebe um bônus de +5 em testes de Percepção e Sobrevivência feitos na área mapeada.
+
+Maldição: No entanto, o mapa possui uma tendência de iludir e enganar seu usuário. Sempre que o mapa é usado, o mestre faz uma rolagem de 1d8 em segredo. Se o resultado for 1, o mapa revela informações falsas, que podem levar o portador a cair em armadilhas ou ser surpreendido por ameaças. Além disso, em vez dos bônus usuais em perícias, o mapa impõe uma penalização de -10 em testes de Percepção, Reflexos e Sobrevivência feitos na área mapeada, durante a duração da magia (com as penalizações aplicadas em segredo pelo mestre). A critério do mestre, o mapa também pode indicar outras informações falsas que atrapalhem a navegação do portador. A maldição só pode ser removida na Floresta de Jeyfar. O portador precisa levar o mapa até lá e explorar a região com sucesso através de um teste estendido de Sobrevivência (CD 20 + metade de seu nível), com 7 sucessos antes de 3 falhas. Cada teste representa um dia de exploração, e em caso de falha total, o total de PM do portador é reduzido em -1 PM por nível até que a maldição seja removida.
+Orbe das Tempestades. Esta esfera de vidro com 20cm de diâmetro contém fumaça e raios em seu interior. Você pode lançar Controlar o Clima e Fúria do Panteão (CD Sab). Caso já conheça as magias, o custo para lançá-las diminui em –1 PM. Além disso, você e todos os seus aliados adjacentes ficam sob efeito de Suporte Ambiental.
+
+Parvathar, o Pulmão da Montanha (JH). Esse fole de ferreiro é adornado com runas e feito de uma madeira escura. Seu couro lembra o aspecto de escamas, e o bocal de saída tem o desenho de uma cabeça de dragão, que parece “soprar” quando o objeto é manipulado. Dizem que é capaz de aspirar e expirar energias elementais. Essa é a ferramenta necessária para forjar aço-rubi.
+
+Criado pelos anões de Doherimm para forjar aço-rubi, o Parvathar utiliza as quatro energias elementais como combustível. Por esse motivo, é capaz de absorver essas energias, gerando os dois efeitos a seguir, mesmo em sua forma enfraquecida.
+
+Aspirar. Sempre que o portador do Parvathar for alvo de um efeito que cause dano de ácido, eletricidade, fogo ou frio, pode usar uma reação e 3 PM para ativar o fole e ignorar metade do dano sofrido (antes de qualquer teste de resistência ou resistência a dano).
+Assoprar. Se já tiver usado Aspirar na cena, o portador pode usar uma ação padrão para disparar um cone de 6m, causando 1d6 pontos de dano para cada 5 pontos de dano absorvidos com Aspirar, do mesmo tipo de energia (Reflexos CD Car reduz à metade). A energia é gasta depois disso; a reserva deve ser recarregada com Aspirar de novo antes de ser usada outra vez.
+Pelego do Descanso (DB)*. Este item melhora as condições de descanso em dois passos e permite que seu usuário obtenha uma noite de descanso completa com apenas 2 horas (mas ele ainda está limitado a um descanso por dia).
+
+Pingente da Saúde. O usuário desta joia verde em um cordão de prata recebe imunidade a doenças e venenos. Os efeitos só se ativam após uma semana de uso.
+
+Pingente da Sensatez. Esta pequena pérola com uma corrente leve é usada como um colar. Você recebe +1 em Sabedoria (somente após um dia de uso).
+
+Pingente da Sereia Adormecida (JH). Uma pérola enorme e brilhante, envolta em uma rede de fios de prata. O usuário do pingente se torna imune a sono, e sua recuperação de PV e PM é sempre confortável. Usando uma ação de movimento e 1 PM, o usuário pode remover uma condição de fadiga que esteja afetando qualquer criatura em alcance curto.
+
+Pulseiras da Celeridade. Esta pulseira de platina aguça todos os seus movimentos. Você recebe +2 em Destreza (somente após um dia de uso).
+
+Robe do Arquimago. Este traje pesado alinha-se com as energias arcanas emitidas por seu usuário para gerar um campo protetor. Se você for um conjurador arcano, recebe um bônus na Defesa igual a 5 + o círculo de magia mais alto que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Assim, um arcanista de 9º nível (capaz de lançar magias de 3º círculo) recebe +8 na Defesa e +4 em testes de resistência.
+
+Símbolo Abençoado. Conta como um símbolo sagrado. Se você for devoto do deus, o custo de suas magias divinas diminui em –1 PM (cumulativo com o poder Símbolo Sagrado Energizado). Apenas devotos desse deus podem fabricar um símbolo abençoado.
+
+Símbolo Sagrado Primordial (DB)*. Só tem efeito para conjuradores divinos. O portador recebe +30 PM (somente após um dia de uso) e +2 em testes de resistência, e a CD para resistir às suas magias aumenta em +5.
+
+Tapete Voador. Com um comando, este tapete flutua, fornecendo deslocamento de voo 12m. O tapete tem 3m x 3m e pode carregar seis criaturas Médias (ou 120 espaços). Se você estiver em alcance longo do tapete, pode comandar o voo dele.
+
+Tiara da Sapiência. Esta tiara delicada possui uma gema que descansa sobre a testa. Você recebe +2 em Inteligência (somente após um dia de uso).
+
+Tomo da Compreensão. Este livro volumoso contém ensinamentos para tornar o leitor mais centrado e aguçar sua percepção, mas também possui um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Sabedoria.
+
+Tomo da Liderança e Influência. Este livro de encadernação luxuosa contém instruções detalhadas para convencer e inspirar os demais, mas as páginas escondem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Carisma.
+
+Tomo dos Grandes Pensamentos. Este livro pesado contém exercícios para aprimorar o raciocínio e a memória, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Inteligência.
+
+Torque do Vigor. O acabamento deste colar ou bracelete remete a um animal poderoso, como um urso ou lobo. Você recebe +1 em Constituição (somente após um dia de uso).
+
+Truque na Mágica (DB). Um papel dobrado com um "truque divertido para enganar seus amigos". Permite que um conjurador arcano "modifique" uma magia arcana, fazendo com que ela seja de outra escola. Assim, um conjurador pode aprender uma magia que não poderia normalmente, ou receber uma magia adicional por sua escola, adicionar bônus de uma escola na magia etc. Possui um único uso.
+
+Varinha Conspurcada (AA). É uma varinha de osso completamente enegrecida e adornada com penduricalhos feitos de insetos secos. Ela conta como uma costela de lich. Além dos benefícios usuais de uma costela de lich, esta varinha também possui as seguintes características: O custo das magias de encantamento e necromancia lançadas pela varinha diminui em -1 PM. A CD para resistir a essas magias aumenta em +2.
+
+Varinha Élfica (DB). Varinha arcana de madeira de tollon enérgica.
+
+Vassoura Voadora. Como um tapete voador, mas pode carregar duas pessoas (ou 40 espaços).
+
+Veste da Noite (DB). Traje camuflado (urbano) aprimorado multifuncional (Acrobacia).
+
+Virtude Inquebrável (DB). Esta faixa verde de seda, amarrada à cintura acima da armadura, é encantada para proteger seu portador de perigos. Qualquer usuário recebe resistência a dano 5, mas caso siga um código de conduta (ver Excalibur), essa resistência aumenta para 10.
+
+As Runas Mágicas (DB)
+Uma runa é um pequeno objeto de metal ou pedra, marcado com um símbolo místico, que pode ser infundido em uma arma para conceder a ela um poder mágico específico. Em termos de regras, runas contam como encantos e ocupam o mesmo espaço destes (ou seja, uma arma pode ter um total de 3 encantos e/ou runas em qualquer combinação). Entretanto, ao contrário de encantos, infundir uma runa não requer nenhuma habilidade especial nem o pagamento de um custo em PM. Para aplicar uma runa a uma arma, você precisa apenas ter a runa e a arma em mãos e gastar uma ação completa. É possível remover uma runa de uma arma, tanto para aproveitá-la em outra arma quanto para abrir espaço para uma nova runa, mas isso é mais difícil. Para remover uma runa de uma arma, o personagem precisa ser treinado em Ofício (armeiro) ou Religião, gastar um dia de trabalho e T$ 1.000 em materiais.
+
+Testes de Resistência contra Runas. Algumas runas permitem um teste de resistência para evitar ou reduzir seus efeitos. O atributo-chave dessa CD é sempre o atributo que o personagem usa em testes de ataque com a arma (mesmo que o efeito em questão não seja parte de um ataque). Isso geralmente será Força para armas de corpo a corpo e Destreza para armas de ataque à distância, mas poderá ser outro atributo, como Sabedoria (para um clérigo sob efeito de Abençoar Arma) ou Carisma (para um bardo sob efeito de Esgrima Mágica).
+
+Obtendo Runas
+Runas são itens mágicos especiais, que não podem ser fabricados por mortais. São uma dádiva dos deuses (ou de outras entidades igualmente poderosas em sua campanha) e só podem ser obtidas como tesouros ou como recompensas por serviços prestados a estas entidades.
+
+Para gerar runas usando as tabelas de tesouro, considere que uma runa é equivalente a um item mágico permanente menor. Assim, sempre que um item mágico destes surgir como resultado de um tesouro, há uma chance de 25% (1 em 1d4) de que o tesouro contenha uma runa no lugar do item. Fique à vontade para ajustar essa porcentagem para tornar runas mais raras ou comuns em sua campanha.
+
+Runas de Gelo
+Bigorna de Ivaldi. Quando ataca com a arma, você pode gastar 2 PM para desferir um golpe mortal. Se acertar o ataque, você causa +2d6 pontos de dano de frio e todas as criaturas adjacentes ao alvo ficam abaladas (Vontade evita). Para cada runa adicional deste tipo na arma, cada dado de dano de frio adicional aumenta em um passo e a CD para resistir ao efeito aumenta em +2.
+Gume de Skaldi. Esta runa só pode ser infundida em armas de arremesso. Você pode gastar uma ação padrão e 5 PM para criar cópias de gelo da arma e arremessá-las em criaturas a sua escolha em alcance curto. Faça um ataque à distância e compare-o com a Defesa de cada inimigo escolhido. Em seguida, faça uma rolagem de dano e aplique-a a cada inimigo atingido; todo o dano causado por esses ataques é de frio. Para cada runa adicional deste tipo na arma, o custo para usar este efeito é reduzido em -1 PM.
+Ira do Ancestral de Geada. Você pode gastar uma ação padrão e 2 PM para disparar uma rajada de gelo em uma criatura em alcance curto. Isso conta como um ataque corpo a corpo com a arma, exceto que seu alcance é curto e todo o dano causado é de frio. Para cada runa adicional deste tipo na arma, o alcance da rajada aumenta em um passo (de curto para médio e de médio para longo).
+Névoas de Helheim. Você pode gastar uma ação padrão e 3 PM para congelar o chão em um raio de 9m. Criaturas na área ficam atordoadas por uma rodada e depois lentas (Fortitude reduz o efeito para lento por uma rodada). Uma criatura só pode ser atordoada por esta habilidade uma vez por cena. Cada runa adicional deste tipo na arma aumenta o raio do efeito em +3m e a CD para resistir a ele em +2.
+Névoa do Fimbulwinter. Você pode lançar "Sopro das Uivantes". Cada runa adicional deste tipo na arma reduz o custo dessa magia em -1 PM e, se a arma tiver três runas destas, você pode usar o aprimoramento que exige o 3º círculo.
+Presa Invernal. Você pode gastar 1 PM para fazer uma arma corpo a corpo que esteja empunhando causar +1d8 de dano de gelo até o fim da cena. Para cada runa adicional deste tipo na arma, você pode gastar +2 PM para aumentar o dano de frio em +1d8.
+Rugido do Leviatã. Esta runa só pode ser infundida em armas de arremesso. Após ser arremessada, se estiver livre, a arma volta voando para você (pegá-la é uma reação). Sempre que pega a arma, você emite uma pequena explosão gélida que causa 2d6 pontos de dano de frio a todas as criaturas adjacentes. Para cada runa adicional deste tipo na arma, o dano da explosão aumenta em +1d6.
+Toque de Hel. Quando atinge uma criatura com a arma, você pode gastar 1 PM para causar +1d6 pontos de dano de frio cumulativos para cada acerto anterior na mesma criatura desde o início do combate. Esse bônus de dano volta a zero se você errar um ataque contra a criatura ou ficar uma rodada inteira sem atacá-la. Para cada runa adicional deste tipo na arma, cada dado de bônus de dano de frio aumenta em um passo.
+Runas de Fogo
+Chamas da Angústia. Você pode gastar 1 PM para fazer uma arma corpo a corpo que esteja empunhando causar +1d8 de dano de fogo até o fim da cena. Para cada runa adicional deste tipo na arma, você pode gastar +2 PM para aumentar o dano de fogo em +1d8.
+Ciclone do Caos. Esta runa só pode ser infundida em uma arma corpo a corpo. Quando faz uma investida com a arma, você pode gastar 2 PM para criar um breve ciclone de chamas ao seu redor. Cada criatura adjacente ao caminho de sua investida (incluindo o alvo dela) sofre 4d6 pontos de dano de fogo (Reflexos reduz à metade). Para cada runa adicional deste tipo na arma, você pode gastar +1 PM para aumentar o dano de fogo em +2d6.
+Devastação de Nemeia. Esta runa só pode ser infundida em uma arma de corpo a corpo. Quando ataca um mesmo oponente com duas armas, se uma delas tiver essa runa, você pode gastar 1 PM para formar um arco de chamas. Você recebe +2 em cada teste de ataque e em cada rolagem de dano e, se acertar ambos os ataques, causa +4d6 pontos de dano de fogo na criatura. Para cada runa adicional deste tipo na arma, o bônus em ataque e dano aumenta em +1 e o dano adicional por acertar os dois ataques aumenta em +1d6.
+Erupção de Atlas. Esta runa só pode ser infundida em uma arma de corpo a corpo. Você pode gastar uma ação padrão e 3 PM para golpear o chão com a arma, causando pequenas erupções em alcance curto. Criaturas a sua escolha na área sofrem 4d6 pontos de dano de fogo e ficam caídas (Reflexos reduz o dano à metade e evita a condição caído). Para cada runa adicional deste tipo na arma, você pode gastar +1 PM para aumentar o dano em +2d6.
+Ferocidade das Fúrias. Você pode gastar uma ação padrão e 2 PM para criar três discos de fogo protetores ao seu redor. Cada disco fornece +2 na Defesa e redução de fogo 5 (estes efeitos são cumulativos). Cada vez que um ataque contra você erra, um dos discos explode, causando 2d6 pontos de dano de fogo em todas as criaturas adjacentes. Para cada runa adicional deste tipo na arma, você cria um disco de fogo extra ao usar este efeito.
+Fúria de Tártaro. Você pode gastar 2 PM para evocar a fúria de Tártaro. Quando faz isso, você faz um ataque corpo a corpo contra um inimigo adjacente e, então, salta para qualquer espaço desocupado em alcance curto. Se terminar este salto adjacente a outro inimigo, você pode fazer um ataque corpo a corpo contra ele. Esse ataque recebe os benefícios e penalidades de uma investida. Para cada runa adicional do mesmo tipo na arma, ambos os ataques causam +1d6 pontos de dano de fogo.
+Raio de Hélio. Uma vez por rodada, quando usa a ação agredir, você pode lançar "Explosão de Chamas" como uma ação livre, pagando seu custo normal em PM. Cada runa adicional deste tipo na arma reduz o custo dessa magia em -1 PM.
+Retribuição de Hades. Esta runa só pode ser infundida em uma arma de perfuração. Quando faz um ataque com a arma, você pode gastar 2 PM. Se acertar o ataque, no início de sua próxima rodada a vítima sofre 6d6 pontos de dano de fogo e fica vulnerável por uma rodada (Fortitude reduz à metade e evita a condição vulnerável). Para cada runa adicional deste tipo na arma, você pode gastar +1 PM para aumentar o dano de fogo em +2d6.
+Runas de Ar
+Arco Voltaico. Ao acertar um ataque corpo a corpo com a arma, você pode fazer outro ataque contra um inimigo em seu alcance, pagando uma quantidade de PM igual a 1 + a quantidade de ataques já realizados no turno. Entretanto, o dano desses ataques adicionais é todo de eletricidade.
+Artilharia dos Ancestrais. Esta runa só pode ser infundida em armas de disparo. Você pode gastar uma ação padrão e 6 PM para efetuar um disparo para cima, criando uma chuva de raios elétricos. Cada criatura a sua escolha em alcance médio sofre 6d6 pontos de dano de eletricidade. Para cada runa adicional deste tipo na arma, você pode gastar +1 PM para aumentar o dano de eletricidade em +2d6.
+Dedo da Devastação. Você pode lançar "Toque Chocante". Cada runa adicional deste tipo na arma reduz o custo dessa magia em –1 PM.
+Honra aos Caídos. Você pode gastar uma ação completa e 2 PM para fazer um ataque celeste. Você salta muito alto e pousa em um espaço desocupado em alcance médio, atacando uma criatura em seu alcance ao pousar. Esse ataque recebe os benefícios e penalidades de uma investida e, se acertar, provoca uma onda de choque que se espalha em alcance curto a partir do alvo. Todas as criaturas na área (exceto você) sofrem 4d6 pontos de dano de eletricidade e ficam vulneráveis por uma rodada (Fortitude reduz o dano à metade e evita a condição vulnerável). Para cada runa adicional deste tipo na arma, você pode gastar +1 PM para aumentar o dano de eletricidade em +2d6.
+Ímpeto de Mil Soldados. Esta runa só pode ser infundida em uma arma de perfuração. Uma vez por rodada, quando ataca com a arma, você pode gastar 2 PM para fazer dois ataques adicionais contra duas criaturas diferentes adjacentes ao alvo do ataque inicial. Todo o dano destes ataques adicionais é de eletricidade. Para cada runa adicional deste tipo na arma, quando usa este efeito, cada um dos três ataques causa +1d6 pontos de dano de eletricidade.
+Ofensiva dos Huldra. Quando faz uma investida com a arma, você pode gastar 2 PM para se mover a uma velocidade sobrenatural. Seu deslocamento nesta investida é dobrado e seu alvo é considerado desprevenido contra este ataque. Para cada runa adicional deste tipo na arma, sua investida causa +2d8 pontos de dano de eletricidade.
+Tempestade da Alma do Mundo. Esta runa só pode ser infundida em uma arma de corpo a corpo. Você pode usar o poder "Tornado de Dor" com a arma, com exceção que o dano causado pelo ataque se torna de eletricidade. Se possuir este poder, o custo para usá-lo com a arma é reduzido em –1 PM. Para cada runa adicional deste tipo na arma, o dano adicional por acerto com "Tornado de Dor" aumenta em +1.
+Vendaval de Vindsvalr. Você pode gastar 1 PM para fazer com que uma arma corpo a corpo que esteja empunhando cause +1d8 de dano de eletricidade até o fim da cena. Para cada runa adicional deste tipo na arma, você pode gastar +2 PM para aumentar o dano de eletricidade em +1d8.
+*Armas do Arsenal de Arsenal
+
