@@ -1,14 +1,14 @@
 name: Python CI Pipeline
 
-on: [push, pull_request]  # Executa em push e PRs
+on: [push, pull_request]
 
 jobs:
   lint-and-test:
-    runs-on: ubuntu-latest  # Usa um ambiente Linux
+    runs-on: ubuntu-latest
 
     env:
-      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}  # Chave de API do Ollama
-      DATABASE_URL: ${{ secrets.DATABASE_URL }}      # Exemplo de variável extra
+      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+      DATABASE_URL: ${{ secrets.DISCORD_TOKEN }}
 
     steps:
       - name: Checkout do código
@@ -17,7 +17,7 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # Ajuste conforme necessário
+          python-version: '3.10'
 
       - name: Instalar dependências
         run: |
