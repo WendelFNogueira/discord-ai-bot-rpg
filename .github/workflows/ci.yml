@@ -1,6 +1,14 @@
 name: Python CI Pipeline
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+      - develop
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
   lint-and-test:
@@ -8,7 +16,8 @@ jobs:
 
     env:
       DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
-      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+      OLLAMA_SERVER_URL: ${{ secrets.OLLAMA_SERVER_URL }}
+
     steps:
       - name: Checkout do código
         uses: actions/checkout@v3
@@ -34,8 +43,13 @@ jobs:
           ollama serve &  # Roda Ollama em background
           sleep 5  # Aguarda o serviço subir
 
-      - name: Testar se a aplicação inicia corretamente
+      - name: Baixar o modelo Mistral
         run: |
-          python main.py &  # Substitua pelo comando correto para rodar sua aplicação
+          ollama pull mistral
+          sleep 5  # Aguarda a conclusão do pull
+
+      - name: Iniciar o bot do Discord
+        run: |
+          python main.py &  # Inicia o bot
           sleep 10
-          curl -f http://localhost:5000 || exit 1  # Ajuste conforme a porta da API
+          curl -f http://localhost:5000 || exit 1  # Verifica se a API do bot está respondendo
