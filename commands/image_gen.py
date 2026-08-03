@@ -1,8 +1,9 @@
+import os
+import re
+import threading
+
 import discord
 import torch
-import os
-import threading
-import re
 from discord.ext import commands
 from diffusers import StableDiffusionPipeline
 
