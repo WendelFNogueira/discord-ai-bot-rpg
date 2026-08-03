@@ -1,6 +1,8 @@
-from discord.ext import commands
 import aiohttp
+from discord.ext import commands
+
 from config import OLLAMA_SERVER_URL
+
 
 class Ficha(commands.Cog):
     def __init__(self, bot):
@@ -17,7 +19,7 @@ class Ficha(commands.Cog):
             "model": "mistral",
             "prompt": prompt,
             "stream": False,
-            "options": {"temperature": 0.7, "top_p": 0.9}
+            "options": {"temperature": 0.7, "top_p": 0.9},
         }
 
         try:
@@ -30,7 +32,10 @@ class Ficha(commands.Cog):
             print(f"Erro ao conectar ao Ollama: {e}")
             return "❌ Erro ao acessar o modelo no Ollama."
 
-    @commands.command(name="preencher_ficha", help="Preenche a ficha do personagem. Exemplo: /preencher_ficha <dados>")
+    @commands.command(
+        name="preencher_ficha",
+        help="Preenche a ficha do personagem. Exemplo: /preencher_ficha <dados>",
+    )
     async def preencher_ficha(self, ctx, *, ficha: str):
         prompt = (
             f"Baseado no livro Tormenta20:\n{self.livro_t20[:2000]}\n"
@@ -40,6 +45,7 @@ class Ficha(commands.Cog):
         async with ctx.typing():
             resposta = await self.query_ollama(prompt)
             await ctx.send(f"📜 Guia de Ficha: {resposta}")
+
 
 async def setup(bot):
     await bot.add_cog(Ficha(bot))

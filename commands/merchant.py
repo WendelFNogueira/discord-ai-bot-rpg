@@ -1,7 +1,9 @@
-import aiohttp
 import re
+
+import aiohttp
 from discord.ext import commands
 from config import OLLAMA_SERVER_URL
+
 
 class Merchant(commands.Cog):
     def __init__(self, bot):
@@ -20,7 +22,7 @@ class Merchant(commands.Cog):
             "model": "mistral",
             "prompt": prompt,
             "stream": False,
-            "options": {"temperature": 0.7, "top_p": 0.9}
+            "options": {"temperature": 0.7, "top_p": 0.9},
         }
 
         try:
@@ -34,11 +36,15 @@ class Merchant(commands.Cog):
             return "❌ Erro ao acessar o modelo no Ollama."
 
     def find_item_context(self, item):
-        pattern = re.compile(rf"{re.escape(item)}.*?(?=\n\n|$)", re.IGNORECASE | re.DOTALL)
+        pattern = re.compile(
+            rf"{re.escape(item)}.*?(?=\n\n|$)", re.IGNORECASE | re.DOTALL
+        )
         matches = pattern.findall(self.book_context)
         return "\n\n".join(matches[:5]) if matches else "Item não encontrado no livro."
 
-    @commands.command(name="comprar", help="Compra um item da loja. Exemplo: /comprar <item>")
+    @commands.command(
+        name="comprar", help="Compra um item da loja. Exemplo: /comprar <item>"
+    )
     async def comprar_item(self, ctx, *, item: str):
         item_context = self.find_item_context(item)
         print("Item context:", item_context)
@@ -66,7 +72,9 @@ class Merchant(commands.Cog):
             await ctx.reply(f"🛒 Mercador: {response}", mention_author=True)
             self.transactions["sold"].append(item)
 
-    @commands.command(name="vender", help="Vende um item da loja. Exemplo: /vender <item>")
+    @commands.command(
+        name="vender", help="Vende um item da loja. Exemplo: /vender <item>"
+    )
     async def vender_item(self, ctx, *, item: str):
         item_context = self.find_item_context(item)
         print("Item context:", item_context)
@@ -93,6 +101,7 @@ class Merchant(commands.Cog):
             print("response:", response)
             await ctx.reply(f"🛒 Mercador: {response}", mention_author=True)
             self.transactions["bought"].append(item)
+
 
 async def setup(bot):
     await bot.add_cog(Merchant(bot))
